@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="chengshu_size">60sp</dimen>
+    <dimen name="symbol">@dimen/chengshu_size</dimen>
+    <dimen name="button_text_size">30sp</dimen>
+    <dimen name="result_text_size">30sp</dimen>
+    <dimen name="result_num_size">20sp</dimen>
+    <dimen name="list_item_text_size">40sp</dimen>
+</resources>

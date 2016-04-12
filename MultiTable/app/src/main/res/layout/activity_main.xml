@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wangpingjun.multitable.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/shizi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/chengshu_size" />
+
+            <TextView
+                android:id="@+id/symb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="-5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="x"
+                android:textSize="@dimen/symbol" />
+
+            <TextView
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/chengshu_size" />
+
+            <TextView
+                android:id="@+id/symb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="-5dp"
+                android:layout_weight="1"
+                android:text="="
+                android:textSize="@dimen/symbol" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="@dimen/chengshu_size" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/result"
+                    android:background="@android:color/background_dark" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/begin_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/shizi"
+            android:layout_alignTop="@+id/shizi"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="请按屏幕右下角开始"
+            android:background="#ffffff00"
+            android:textSize="@dimen/button_text_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shizi"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="下一题"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/next"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/digit_1"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/digit_2"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/digit_3"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/digit_4"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/digit_5"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/digit_6"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/digit_7"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/digit_8"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/digit_9"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="9" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/digit_del"
+                        style="@style/DigitalKeyBoardItem"
+                        android:layout_height="match_parent"
+                        android:text="删除"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/digit_0"
+                        style="@style/DigitalKeyBoardItem"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/next2"
+                        style="@style/DigitalKeyBoardItem"
+                        android:layout_height="match_parent"
+                        android:text="Next"
+                        android:textSize="20sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
