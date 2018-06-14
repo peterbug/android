@@ -1,6 +1,6 @@
 branch test2 modify
 bbaaaa
-
+branch fromTest2 modify
 0
 11
 
