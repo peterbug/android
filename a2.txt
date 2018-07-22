@@ -1,4 +1,5 @@
 aaaa 
+xxx:wq
 
 
 a2.txt in master add
