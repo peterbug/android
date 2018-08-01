@@ -1,1 +1,6 @@
-aaaa
+insert in master in a2.txt
+aaab
+xxx:wq
+
+
+a2.txt in master add
