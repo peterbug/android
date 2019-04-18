@@ -1,3 +1,4 @@
+这是B7添加的数据
 aaaaaaadd in branch b6
 kkkk	iiiadd one two three four
 branch test2 modify
