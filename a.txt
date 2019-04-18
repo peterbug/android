@@ -1,7 +1,7 @@
-add in branch b6
+aaaaaaadd in branch b6
 kkkk	iiiadd one two three four
 branch test2 modify
-bbaaaa
+baaaaaabaaaa
 
 0
 11
