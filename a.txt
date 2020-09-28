@@ -1,10 +1,17 @@
 branch test2 modify
 bbaaaa
 
+<<<<<<< HEAD
 0
 11      ==B-add2
 
 2            ==B-add3
+=======
+0   ==B.1 add1
+11
+
+2   ==B.1 add2
+>>>>>>> B.1
 
 add this line 2018-7-22
 
